@@ -2,6 +2,12 @@
 
 ## Run Back-end
 
+First Enter directory **service-factorial**, example:
+
+```Shell
+cd service-factorial
+```
+
 Run application in windows
 
 ```Shell
@@ -29,3 +35,24 @@ Example response:
 ```
 
 ## Run Front-end
+
+First Enter directory **examen**, example:
+
+```Shell
+cd examen
+```
+
+###### Install dependencies
+
+```Shell
+npm install
+```
+
+Run application
+```Shell
+npm start
+```
+
+Front-end running in port 4200
+
+**Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/**
