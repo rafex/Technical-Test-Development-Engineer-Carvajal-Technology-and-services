@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="d-flex justify-content-center mt-4 mb-4">
+    <button type="button" class="btn btn-primary" (click)="getDataTable()">
+      {{ showTable ? 'Actualizar Datos' : 'Obtener Datos' }}
+    </button>
+  </div>
+
+  <boot-table [rows]="data" *ngIf="showTable"></boot-table>
+</div>
